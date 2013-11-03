@@ -1,0 +1,18 @@
+<p>
+  <b>Number:</b>
+  <%=h @order.number %>
+</p>
+
+<p>
+  <b>Number items:</b>
+  <%=h @order.number_items %>
+</p>
+
+<p>
+  <b>Shipping address:</b>
+  <%=h @order.shipping_address %>
+</p>
+
+
+<%= link_to 'Edit', edit_order_path(@order) %> |
+<%= link_to 'Back', orders_path %>

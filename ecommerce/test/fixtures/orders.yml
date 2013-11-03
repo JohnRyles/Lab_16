@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  number: 
+  number_items: 
+  shipping_address: MyString
+
+two:
+  number: 
+  number_items: 
+  shipping_address: MyString
